@@ -16,7 +16,7 @@ const coin = {
 
     toHTML: function () {
         const image = document.createElement("img");
-        image.src = `./img/${this.flip()}.jpg`
+        image.src = `./coinObject/img/${this.flip()}.jpg`
         image.alt = `${this.toString()}`
         return image
     }
